@@ -7,12 +7,25 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/txttextView"
+        android:layout_width="78dp"
+        android:layout_height="56dp"
+        android:text="0"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnButton"
+        android:layout_width="112dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="28dp"
+        android:text="Count"
+        app:layout_constraintBottom_toTopOf="@+id/txttextView"
+        app:layout_constraintStart_toStartOf="@+id/txttextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
