@@ -8,9 +8,12 @@
 
     <TextView
         android:id="@+id/txttextView"
-        android:layout_width="78dp"
-        android:layout_height="56dp"
+        android:layout_width="114dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-medium"
         android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.365"
@@ -20,10 +23,10 @@
 
     <Button
         android:id="@+id/btnButton"
-        android:layout_width="112dp"
+        android:layout_width="104dp"
         android:layout_height="52dp"
         android:layout_marginStart="4dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="24dp"
         android:text="Count"
         app:layout_constraintBottom_toTopOf="@+id/txttextView"
         app:layout_constraintStart_toStartOf="@+id/txttextView" />
